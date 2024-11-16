@@ -21,7 +21,7 @@ export default function LandingPage() {
       </header>
 
       <main className="container mx-auto px-4 py-12">
-        <section className="text-center mb-16">
+        <section className="text-center mb-16 mt-16 min-h-[500px] flex flex-col justify-center items-center">
           <h2 className="text-4xl font-bold mb-4">Unlock the Power of Quantitative Analysis</h2>
           <p className="text-xl text-muted-foreground mb-8">
             Discover investment opportunities with our advanced stock analysis tools
@@ -29,7 +29,7 @@ export default function LandingPage() {
           <Button size="lg">Start Your Free Trial</Button>
         </section>
 
-        <section className="grid md:grid-cols-3 gap-8 mb-16">
+        <section className="grid md:grid-cols-3 gap-8 mb-16 mt-16 min-h-[300px] items-center">
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
@@ -65,7 +65,7 @@ export default function LandingPage() {
           </Card>
         </section>
 
-        <section className="bg-muted p-8 rounded-lg mb-16">
+        <section className="bg-muted p-8 rounded-lg mb-16 min-h-[400px] flex flex-col justify-center items-center">
           <h3 className="text-2xl font-bold mb-4">Sample Stock Analysis: AAPL</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
@@ -95,7 +95,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="mb-16">
+        <section className="mb-16 min-h-[600px] flex flex-col justify-center items-center">
           <h3 className="text-3xl font-bold mb-8 text-center">Why Choose LongTerm Alpha?</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -117,7 +117,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="mb-16">
+        <section className="mb-16 min-h-[600px] flex flex-col justify-center items-center">
           <h3 className="text-3xl font-bold mb-8 text-center">Our Research Process</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
@@ -139,7 +139,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="mb-16">
+        <section className="mb-16 min-h-[600px] flex flex-col justify-center items-center">
           <h3 className="text-3xl font-bold mb-8 text-center">Testimonials</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
@@ -157,16 +157,19 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="text-center mb-16">
+        <section className="text-center mb-16 min-h-[600px] flex flex-col justify-center items-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Elevate Your Investment Strategy?</h3>
           <p className="text-xl text-muted-foreground mb-8">
             Join LongTerm Alpha today and gain access to our comprehensive equity research
           </p>
+          <div>
+
           <Button size="lg" className="mr-4">Start Your Free Trial</Button>
           <Button size="lg" variant="outline">
             Learn More
             <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
+          </div>
         </section>
       </main>
 
