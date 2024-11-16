@@ -1,9 +1,11 @@
+'use client'
+
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { BarChart3, TrendingUp, Building2 } from 'lucide-react'
 
-export default function LandingPage() {
+export function LandingPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-white">
       <header className="container mx-auto px-4 py-8">
@@ -98,7 +100,7 @@ export default function LandingPage() {
 
       <footer className="bg-primary text-primary-foreground mt-16 py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 LongTerm Alpha. All rights reserved.</p>
+          <p>&copy; 2023 LongTerm Alpha. All rights reserved.</p>
         </div>
       </footer>
     </div>
